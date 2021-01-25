@@ -81,6 +81,39 @@ header .textos-header{
     bottom: 0;
     width: 100%;
 }
+/* Presentacion */
+
+main .mi-presentacion{
+    padding: 10px 0 10px 0;
+}
+.contenedor-presentacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about{
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.mi-presentacion .contenido-text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.contenido-text h3{
+    margin-bottom: 15px;
+}
+
+
+.contenido-text p{
+    padding: 0px 0px 30px 15px;
+    font-size: 1000;
+    text-align: justify;
+}
 
 /* About us */
 
@@ -161,6 +194,12 @@ main .preguntas{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+}
+
+.comienza img{
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 /* Video */
 
@@ -494,6 +533,9 @@ footer{
     .imagen-about-us{
         width: 90%;
     }
+    .imagen-about{
+        width: 40%;
+    }
     /* Video*/
 
     .video-port{
@@ -570,6 +612,9 @@ footer{
         font-size: 20px;
     }
 
+    .imagen-about{
+        width: 70%;
+    } 
     /* ABOUT US */
 
     .imagen-about-us{
@@ -584,6 +629,10 @@ footer{
     /*PREGUNTAS FRECUENTES */
     .preguntas .preguntas-textos{
         width: 95%;
+    }
+
+    .comienza img{
+        width: 100%;
     }
 
     /* Video */
